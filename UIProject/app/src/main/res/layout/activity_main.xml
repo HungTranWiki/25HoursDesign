@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="109px"
+        android:layout_height="30px"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="65px"
+        android:gravity="center"
+        android:text="My Favorites"
+        android:textSize="18px" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="23px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="107px" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="320px"
+        android:layout_height="803px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="201px"
+        android:layout_marginRight="20px"
+        android:layout_marginBottom="44px" />
+
+
+</LinearLayout>
